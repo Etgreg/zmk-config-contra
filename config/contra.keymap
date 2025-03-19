@@ -27,10 +27,10 @@
 
         num_mods {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp ESCAPE  &kp BACKSPACE  &kp NUMBER_6      &kp N7  &kp N8  &kp N9                &kp N0
-&trans        &trans        &trans        &trans        &trans        &trans      &trans         &kp LS(NUMBER_3)  &trans  &trans  &kp RA(SINGLE_QUOTE)  &kp RA(BACKSLASH)
-&trans        &trans        &trans        &trans        &trans        &trans      &trans         &trans            &trans  &trans  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
-&trans        &trans        &trans        &trans        &trans        &trans      &trans         &trans            &trans  &trans  &trans                &kp BACKSLASH
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp ESCAPE  &kp BACKSPACE  &kp NUMBER_6      &kp N7     &kp N8             &kp N9                &kp N0
+&trans        &trans        &trans        &trans        &trans        &trans      &trans         &kp LS(NUMBER_3)  &kp TILDE  &kp RA(GRAVE)      &kp RA(SINGLE_QUOTE)  &kp RA(BACKSLASH)
+&trans        &trans        &trans        &trans        &trans        &trans      &trans         &kp BACKSLASH     &trans     &kp LS(BACKSLASH)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)
+&trans        &trans        &trans        &trans        &trans        &trans      &trans         &trans            &trans     &trans             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
             >;
         };
 
